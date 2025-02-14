@@ -1,0 +1,25 @@
+.homeBody {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+    position:relative;
+    margin-top: 50px;
+}
+
+.homeText {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeText h2 {
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.homeImg {
+    padding: 0;
+    margin: 0;
+}
