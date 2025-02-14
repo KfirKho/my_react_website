@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 0px;
+  display:flex;
+  flex-direction: column;
+}
+
+
+footer{
+  background-color: antiquewhite;
+  padding: 10px;
+  min-width: 100%;
+  bottom: 0;
+  position: fixed;
+}

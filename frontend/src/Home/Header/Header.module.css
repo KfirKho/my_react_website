@@ -1,0 +1,37 @@
+.navHeader {
+background-color: aqua;
+margin: 0%;
+padding: 0%;
+position: fixed;
+top: 0px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navHeader h1{
+margin: 5px;
+padding: 5px;
+overflow: hidden;
+}
+
+.navHeader nav ul {
+display: flex;
+list-style: none;
+padding-right: 10px;
+}
+
+.navHeader nav ul li {
+padding: 10px;
+}
+
+.navHeader nav ul li a {
+text-decoration: none;
+color: black;
+}
+
+.navHeader nav ul li a:hover {
+color:blue;
+text-decoration: underline;
+}
