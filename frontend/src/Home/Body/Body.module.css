@@ -7,6 +7,7 @@
     background-color: aquamarine;
     position:relative;
     margin-top: 50px;
+    align-items: center;
 }
 
 .homeText {
@@ -15,11 +16,43 @@
 }
 
 .homeText h2 {
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.homeText p {
+    display: flex;
+    justify-content: center;
 }
 
 .homeImg {
     padding: 0;
     margin: 0;
+}
+
+.homeImg img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.homeButton {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeButton button {
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(100, 185, 255);
+}
+
+.homeButton button:hover {
+    background-color: rgb(127, 197, 255);
+    cursor: pointer;
 }

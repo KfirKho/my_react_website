@@ -1,4 +1,5 @@
 import styles from './Body.module.css'
+import meimg from "../assets/me.jpg"
 
 function Body()
 {
@@ -11,9 +12,13 @@ function Body()
                 <p>
                     And I want to be a Professional Engineer
                 </p>
+                <div className={styles.homeButton}>
+                    <button>Phone</button>
+                    <button>Email</button>
+                </div>
             </div>
             <div className={styles.homeImg}>
-
+                <img src={meimg} alt="Image Not Found" />
             </div>
         </div>
     );
