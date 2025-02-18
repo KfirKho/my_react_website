@@ -1,22 +1,29 @@
 .homeBody {
-    padding: 20px;
+    padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     background-color: aquamarine;
-    position:relative;
     margin-top: 50px;
     align-items: center;
+    width: 100%;
 }
 
 .homeText {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: brown;
+    margin: 20px;
+    text-align: center;
 }
 
 .homeText h2 {
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .homeText p {
@@ -25,8 +32,9 @@
 }
 
 .homeImg {
-    padding: 0;
+    padding: 20px;
     margin: 0;
+    background-color: black;
 }
 
 .homeImg img {
